@@ -1,0 +1,25 @@
+body {
+  background-color: #252036;
+  color: #B1E5F3;
+  font-family: "Lucida Console", Lucida, Monospace;
+  text-indent: 1em;
+}
+
+a {
+  color: #EB2592;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.2rem;
+}

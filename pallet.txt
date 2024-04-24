@@ -1,0 +1,8 @@
+Main: #252036
+  Sec: #EB7E26
+  Terc: #26EB29
+Sec: #EDECFF
+#1015B0
+#EB2592
+#2673EB
+#68A9EB
