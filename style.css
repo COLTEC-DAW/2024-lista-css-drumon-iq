@@ -6,7 +6,13 @@ div.summary
 
 .main 
 {
-  line-height: 1.5;
+  line-height: 24px;
+}
+
+.main footer
+{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .page-wrapper 
@@ -24,11 +30,46 @@ div.summary
   padding-right: 2%;
 }
 
+.benefits 
+{
+  display: flex;
+  border-bottom-style: solid;
+}
+
+.benefits h3
+{
+  align-self: center;
+  flex: 30%;
+}
+
+.benefits p
+{
+  flex: 70%;
+}
+
+.participation
+{
+  border-top-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 50%;
+}
+
+.participation h3
+{
+  align-self: center;
+}
+
 .design-selection {
     position: absolute;
     top: 400px;
     left: 62%;
     padding: 2%;
+}
+
+.design-selection li{
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
 
 section.intro 
@@ -38,7 +79,12 @@ section.intro
 
 #design-archives 
 {
-  display:none;
+  display: none;
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  padding-right: 1px;
+  padding-left: 1px;
 }
 
 body 
@@ -59,12 +105,13 @@ body
 
 p
 {
-  text-indent: 1em;
+  text-indent: 16px;
 }
 
 a
 {
   color: #25095a;
+  font-weight: 401;
 }
 
 h1 
