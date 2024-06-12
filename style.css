@@ -1,0 +1,202 @@
+div.summary
+{
+  text-align: right;
+}
+
+.main 
+{
+  line-height: 24px;
+}
+
+.main footer
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.page-wrapper 
+{
+  position: relative;
+  max-width: 1280px;
+  margin: 50px;
+}
+
+.explanation 
+{
+  width: 60%;
+  margin-right: 35%;
+  border-right: 1px solid #1f295c;
+  padding-right: 2%;
+}
+
+.benefits 
+{
+  display: flex;
+  border-bottom-style: solid;
+}
+
+.benefits h3
+{
+  align-self: center;
+  flex: 30%;
+}
+
+.benefits p
+{
+  flex: 70%;
+}
+
+.participation
+{
+  border-top-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 50%;
+}
+
+.participation h3
+{
+  align-self: center;
+}
+
+.design-selection {
+    position: absolute;
+    top: 400px;
+    left: 62%;
+    padding: 2%;
+}
+
+.design-selection li{
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
+section.intro 
+{
+  height: 550px;
+}
+
+#design-archives 
+{
+  display: none;
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+body 
+{
+  background-color: #EDECFF;
+  color: #252036;
+
+  font-size: 15px;
+  font-family: sans-serif;
+
+  width: 80%;
+  height: 80%
+  max-width: 1280px;
+
+  text-align: center;
+  text-indent: 16px;
+}
+
+p
+{
+  text-indent: 16px;
+}
+
+a
+{
+  color: #25095a;
+  font-weight: 401;
+}
+
+h1 
+{ 
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+h2 
+{ 
+  font-size: 22px; 
+  text-indent: 16px;
+}
+
+h3 
+{ 
+  font-size: 18px; 
+
+  background-color: #252036;
+  color: #EDECFF;
+}
+
+abbr 
+{
+  font-variant: small-caps;
+}
+
+li 
+{
+  border-top-style: solid;
+  text-align: center;
+  list-style-type: none;
+  line-height: 1.5em;
+  margin-bottom: 16px;
+}
+
+footer
+{
+  margin: 4%; 
+  background-color: #252036;
+  color: #EDECFF;
+}
+footer a
+{
+  border-style: solid;
+  border-width: 2px;
+  padding: 0.5em;
+  background-color: #252036;
+  color: #EDECFF;
+}
+
+header[role="banner"] 
+{
+  background-color: #252036;
+  color: #EDECFF;
+  text-align: left;
+}
+header[role="banner"] h1 
+{
+  display: inline;
+  padding-left: 1em;
+}
+header[role="banner"] h2 
+{
+  display: inline;
+  padding-left: 1em;
+}
+
+@media (max-width: 768px)
+{
+	.explanation 
+	{
+		width: 60%;
+		margin-right: 35%;
+		padding-right: 2%;
+	}
+
+	.participation
+	{
+		border-top-style: solid;
+		display: flex;
+		flex-wrap: wrap;
+		flex: 50%;
+		flex-direction: column;
+	}
+	p
+	{
+	}
+}
